@@ -1,0 +1,275 @@
+﻿Pharaoh;Ancient name;Modern name;Dynasty;Site;Base1 (m);Base2 (m);Height (m);Slope (dec degr);Volume (cu.m);Latitude(Pyramid);Longitude(Pyramid);Type;Material;Comment;Latest possible finish date;No. ;Resource Type;Name ;Latitude ;Longitude ;Stone ;Main period ;State
+Djoser;Hiemlender;Step Pyramid of Djoser;3;Saqqara;121;109;60;;3304;29,871215;31,216644;Step;Mudbrick;;-2611,00;;;;;;;;
+Sekhemkhet;-;Buried Pyramid;3;Saqqara;120;120;70;;336;29,866;31,213;Step;Mudbrick;(unfinished);unfinished;;;;;;;;
+Khaba (?);-;Layer Pyramid;3;Zawyet el'Aryan;84;84;40;;4704;29,93282;31,161262;Step;Mudbrick;(unfinished);unfinished;;;;;;;;
+Huni;-;Pyramid Lepsius I;3;Abu Rawash;215;215;145;;;30,040833;31,094444;Step;Mudbrick;totally ruined;-2575,00;;;;;;;;
+Huni (?);-;Pyramid of Athribis;3;Athribis;20;20;16;50;;30,470556;31,188056;Step;Mudbrick;;-2575,00;;;;;;;;
+Huni (?);-;Pyramid of Elephantine;3;Elephantine;18;18;105;82;;24,085556;32,885278;Step;Rose Granite;;-2575,00;;;;;;;;
+Huni (?);-;Edfu South Pyramid;3;Edfu;18;18;125;77;;24,943611;32,841944;Step;Sandstone;;-2575,00;;;;;;;;
+Huni (?);-;Al Kula Pyramid;3;Hierakonpolis;19;19;12;77;;25,116667;32,8;Step;Limestone;;-2575,00;;;;;;;;
+Huni (?);-;Pyramid of Naqada (Pyramid of Ombos);3;Naqada;19;19;14;80;;25,940556;32,709167;Step;Limestone;;-2575,00;;;;;;;;
+Huni (?);-;Pyramid of Sinki;3;Abydos;19;19;125;80;;26,157778;31,966111;Step;Limestone;;-2575,00;;;;;;;;
+Huni (?);-;Pyramid of Zawyet el-Maiyitin;3;Al-Minya;224;224;17;80;;28,045833;30,828611;Step;Limestone;;-2575,00;;;;;;;;
+Sneferu;-;Pyramid of Seila;4;Seila;25;25;68;76;;29,382589;31,053581;Step;Limestone;;-2575,00;;;;;;;;
+Sneferu;Snefru endures;Pyramid of Meidum;4;Meidum;144;144;92;5184;638733;29,388056;31,156944;Smooth-faced;Limestone;;-2551,00;;;;;;;;
+Sneferu;Snefru shines in the South;Bent Pyramid;4;Dahshur;188;188;105;5446;1237040;29,790278;31,209167;Bent;Limestone;;-2551,00;;;;;;;;
+Sneferu;Snefru shines in the North;Red Pyramid (North Pyramid);4;Dahshur;220;220;105;4337;1694000;29,808333;31,205833;Smooth-faced;Limestone;;-2551,00;;;;;;;;
+Hetepheres I;King's Wife. Hetepheres, wife of Sneferu;Pyramid G1-a;4;Giza;495;495;3025;;;29,978836;31,136261;True;Limestone;;-2589,00;;;;;;;;
+Meritites I;Queen Merititis, Beloved of Her Father, Snefuru;Pyramid G1-b;4;Giza;50;50;30;33;;29,978333;31,136111;True;Limestone;;-2562,00;;;;;;;;
+Henutsen;King's daughter. Henutsen, wife of Khufu;Pyramid G1-c;4;Giza;4625;4625;2960;52;;29,977778;31,136389;True;Limestone;;-2528,00;;;;;;;;
+Khufu;-;Pyramid G1-d;4;Giza;23;23;14;52;;29,97785;31,136256;True;Limestone;;-2528,00;;;;;;;;
+Khufu;Khufu's horizon;The Great Pyramid of Giza;4;Giza;2303;2303;1466;5184;2583283;29,979167;31,134167;True;Limestone. granite;;-2525,00;;;;;;;;
+Djedefre (Radjedef);Djedefre's Starry Sky;Pyramid of Djedefre;4;Abu Rawash;106;106;67;52;131043;30,032222;31,074722;True;Limestone. granite;;-2520,00;;;;;;;;
+Bikheris (?);Star of ..?..-Ka;Unfinished Northern Pyramid of Zawyet el'Aryan;4;Zawyet el'Aryan;200;200;;52;;29,940122;31,151556;True;;(unfinished);unfinished;;;;;;;;
+Khafra (Khephren);Khafra is great;Pyramid of Khafre;4;Giza;21525;21525;1435;5317;2211096;29,975947;31,130698;True;Limestone;;-2494,00;;;;;;;;
+Menkaure;Menkaure is divine;Pyramid of Menkaure;4;Giza;10546;10546;655;5134;235183;29,972378;31,128327;True;Limestone. granite;;-2472,00;;;;;;;;
+Menkaure;-;Pyramid G-3c (western);4;Giza;3150;3150;2100;;700;29,971592;31,127274;Step;Limestone;Menkaure' wife (?);-2472,00;;;;;;;;
+Menkaure;-;Pyramid G-3b (middle);4;Giza;3150;3150;2100;;700;29,971592;31,127783;Step;Limestone;Menkaure' wife (?);-2472,00;;;;;;;;
+Menkaure;-;Pyramid G-3a (eastern);4;Giza;4440;4440;2830;;1869;29,971592;31,128293;True;Limestone;Menkaure' wife (?);-2472,00;;;;;;;;
+Shepseskaf;The Purified Pyramid;Mastabat al-Fir'aun;4;Giza;996;744;18;70;148271;29,838889;31,215;Step;Sandstone. Granite. Limestone;Mastaba;-2467,00;;;;;;;;
+Khentkawes (Khentkaus I);Wife of Shepseskaf;Step tomb of Khentkaus I;4;Giza;355;458;175;74;6372;29,973306;31,135361;Step;Bedrock. Limestone;LG 100;-2467,00;;;;;;;;
+Menkauhor (?);-;Pyramid Lepsius L;4;Dahshur;85;85;;;;29,810833;31,212222;-;Limestone;Never built. earthwork just started;unfinished;;;;;;;;
+Userkaf;The pure sites of Userkaf;Pyramid of Userkaf;5;Saqqara;733;733;49;5313;87906;29,873611;31,218889;True;Limestone;;-2458,00;;;;;;;;
+Neferhetepes ;Her Grace is Beautiful, daughter of Djedefre;Pyramid of Neferhetepes (wife of Userkaf);5;Saqqara;26;26;17;52;;29,87275;31,2186;Smooth-faced;Limestone;;-2458,00;;;;;;;;
+Sahure;The personality (ba) of Sahure appears;Pyramid of Sahure;5;Abusir;7875;7875;47;5019;96542;29,897778;31,203333;True;Limestone;;-2446,00;;;;;;;;
+Neferirkare Kakai;Personality (ba) of Neferirkare;Pyramid of Neferirkare;5;Abusir;72;72;52;5313;25725;29,895;31,2025;Step;Limestone;Later converted to true type;-2426,00;;;;;;;;
+Neferefre (Ra'neferef);The power of Neferefre is divine;Pyramid of Neferefre;5;Abusir;65;65;;;;29,893889;31,201667;Smooth-sided;Limestone;(unfinished);unfinished;;;;;;;;
+Khentkawes II;King's Wife (King's Mother);Pyramid of Queen Khentkawes II;5;Abusir;25;25;16;52;;29,894143;31,202523;True;Limestone;;-2426,00;;;;;;;;
+Shepseskare (?);-;Unfinished pyramid of North Abusir;5;Abusir;105;105;;;;29,898664;31,201633;True;Limestone;(unfinished);unfinished;;;;;;;;
+Nyuserre Ini;The seats of Niuserre will endure;Pyramid of Nyuserre;5;Abusir;789;789;5168;5184;112632;29,895667;31,203556;Smooth-sided;Limestone;;-2392,00;;;;;;;;
+Menkauhor Kaiu;The divine places of Menkauhor;Headless Pyramid;5;Saqqara;52;52;5250;;;29,875278;31,223611;Smooth-faced;Limestone;;-2388,00;;;;;;;;
+Djedkare Isesi;Beautiful is Djedkare;Pyramid of Djedkare-Isesi;5;South Saqqara;7875;7875;525;52;107835;29,851111;31,220833;True;Limestone;;-2356,00;;;;;;;;
+Unas (Wenis);The places of Unas are beautiful;Pyramid of Unas;5;North Saqqara;5775;5775;43;5631;4739;29,868333;31,214722;Smooth-sided;Limestone;;-2323,00;;;;;;;;
+Teti;The places of Teti are enduring;Pyramid of Teti;6;North Saqqara;7875;7875;525;5313;107835;29,875278;31,221667;Smooth-sided;Limestone;;-2291,00;;;;;;;;
+Pepi I;The beauty of Pepi may endure;Pyramid of Pepi I;6;South Saqqara;7875;7875;525;5313;107835;29,85451;31,21909;True;Limestone;;-2255,00;;;;;;;;
+Merenre;The beauty of Merenre appears;Pyramid of Merenre;6;South Saqqara;7875;7875;525;5313;107835;29,850556;31,215;True;Limestone;;-2246,00;;;;;;;;
+Pepi II;Pepi is established and living;Pyramid of Pepi II;6;South Saqqara;79;79;524;5313;107835;29,8403;31,2133;True;Limestone;;-2152,00;;;;;;;;
+Qakare Ibi;-;Pyramid of Ibi;8;South Saqqara;315;315;21;5311;6994;29,841667;31,217778;True;Limestone;;-2140,00;;;;;;;;
+Khui;-;Pyramid of Khui;8;Dara;146;136;15;;;27,307778;30,871667;Step;Limestone;FIP;-2140,00;;;;;;;;
+Amenemhat I;Amenemhat appears at his place;Pyramid of Amenemhet I;12;Lisht;84;84;55;5446;12936;29,574722;31,225;Smooth-faced;Limestone;;-1962,00;;;;;;;;
+Senusret I;Senusret beholds the two lands;Pyramid of Senusret I;12;Lisht;105;105;6125;4940;225093;29,560009;31,220876;Smooth-faced;Limestone;;-1926,00;;;;;;;;
+Amenemhat II;Amenemhat is provided;White Pyramid;12;Dahshur;50;50;84;;;29,805563;31,222781;True;Limestone;;-1892,00;;;;;;;;
+Senusret II;Senusret Shines;Pyramid of Senusret II;12;El-Lahun;106;106;486;4258;185665;29,233333;30,966667;Smooth-faced;Mudbrick;;-1878,00;;;;;;;;
+Senusret III;-;Pyramid of Senusret III;12;Dahshur;105;105;63;5631;288488;29,818889;31,225556;True;Mudbrick;;-1841,00;;;;;;;;
+Amenemhat III;Amenemhat is beautiful;Black Pyramid;12;Dahshur;105;105;75;5726;274625;29,791667;31,223611;True;Mudbrick;;-1797,00;;;;;;;;
+Amenemhat III;Amenemhat lives;Pyramid of Hawara;12;Hawara;105;105;58;4875;200158;29,27424;30,898973;True;Mudbrick;;-1797,00;;;;;;;;
+Amenemhat IV (?);-;Southern Mazghuna pyramid;13;Dahshur;525;525;;;;29,761667;31,220833;True;Mudbrick;(unfinished);-1787,00;;;;;;;;
+Sobekneferu (Nefrusobk);-;Northern Mazghuna pyramid;13;Dahshur;525;525;;;;29,7675;31,220833;True;Limestone;(unfinished);-1783,00;;;;;;;;
+Ameny Qemau;-;Pyramid of Ameny Qemau;13;Dahshur;52;52;35;5322;;29,781667;31,221389;True;Mudbrick;SIP;-1760,00;;;;;;;;
+Khendjer;-;Pyramid of Khendjer;13;South Saqqara;525;525;3735;55;44096;29,832222;31,223889;True;Mudbrick;SIP;-1756,00;;;;;;;;
+Weserkhau (?);-;Southern South Saqqara pyramid;13;South Saqqara;7875;7875;;;;29,830556;31,222222;True;Mudbrick;SIP;-1741,00;;;;;;;;
+Neferhotep I;-;Tomb S9;13;Abydos;45;60;;;;26,171389;31,925;Mastaba;Mudbrick;SIP;-1730,00;;;;;;;;
+Sobekhotep IV;-;Tomb S10;13;Abydos;40;30;;;;26,171111;31,924167;Mastaba;Mudbrick;SIP;-1720,00;;;;;;;;
+Ahmose I;-;Pyramid of Ahmose;18;Abydos;525;525;40;60;;26,175;31,937778;Cenotaph;Limestone;;-1525,00;;;;;;;;
+;;;;;;;;;;;;;;;;H1 ;Miscellaneous hardstones;Gebel Ahmar ;30.05266 ;31.29567 ;Silicified sandstone ;P ;4
+;Djehuti's ;;;;;;;;;;;;;;;H2 ;Miscellaneous hardstones;Widan el-Faras ;29.66001 ;30.62001 ;Basalt ;P ;3
+;;;;;;;;;;;;;;;;H3 ;Miscellaneous hardstones;Tilal Sawda ;28.52001 ;30.54833 ;Basalt ;GR ;3
+;;;;;;;;;;;;;;;;H4 ;Miscellaneous hardstones;Wadi Abu Aggag ;24.14167 ;32.91001 ;Silicified sandstone ;P/GR ;3
+;;;;;;;;;;;;;;;;H5 ;Miscellaneous hardstones;Gebels Gulab and Tingar ;24.10676 ;32.87827 ;Silicified sandstone ;P/GR ;1
+;;;;;;;;;;;;;;;;H6 ;Miscellaneous hardstones;Aswan ;24.06176 ;32.89661 ;Granite, granodiorite ;P/GR ;3
+;;;;;;;;;;;;;;;;H7 ;Miscellaneous hardstones;Chephren’s Quarry ;22.80677 ;31.22657 ;Anorthosite-gabbro gneiss ;P ;2
+;;;;;;;;;;;;;;;;H10 ;Miscellaneous hardstones;Gebel Manzal el-Seyl ;27.54333 ;33.13001 ;Tuff, tuffaceous limestone ;PH/ED 1;
+;;;;;;;;;;;;;;;;H11 ;Miscellaneous hardstones;Wadi Umm Sidri ;27.29701 ;33.30067 ;Quartz syenite porphyry ;GR ;1
+;;;;;;;;;;;;;;;;H12a ;Miscellaneous hardstones;Mons Porphyrites ;27.25178 ;33.30165 ;Andesite-dacite porphyry ;GR ;1
+;;;;;;;;;;;;;;;;H12b ;Miscellaneous hardstones;Wadi Abu Maamel ;27.25033 ;33.30133 ;Granite ;GR ;1
+;;;;;;;;;;;;;;;;H13 ;Miscellaneous hardstones;Badia ;27.21451 ;33.34417 ;Granite ;GR ;1
+;;;;;;;;;;;;;;;;H14;Miscellaneous hardstones; Wadi Umm Towat ;27.17017 ;33.24217; Trachyandesite porphyry ;GR ;1
+;;;;;;;;;;;;;;;;H15 ;Miscellaneous hardstones;Wadi Umm Balad ;27.15233 ;33.28517 ;Quartz diorite ;GR ;1
+;;;;;;;;;;;;;;;;H16 ;Miscellaneous hardstones;Wadi Qattar ;27.08001 ;33.23683 ;Granodiorite ;GR ;1
+;;;;;;;;;;;;;;;;H17 ;Miscellaneous hardstones;Wadi Umm Shegilat ;26.94367 ;33.24851 ;Pegmatitic diorite ;GR ;1
+;;;;;;;;;;;;;;;;H18 ;Miscellaneous hardstones;Mons Claudianus ;26.80917 ;33.48667 ;Tonalite gneiss ;GR ;1
+;;;;;;;;;;;;;;;;H19 ;Miscellaneous hardstones;Wadi Barud ;26.76533 ;33.57167 ;Quartz diorite ;GR ;1
+;;;;;;;;;;;;;;;;H20 ;Miscellaneous hardstones;Wadi Umm Huyut ;26.75101 ;33.46851 ;Tonalite gneiss ;GR ;1
+;;;;;;;;;;;;;;;;H21 ;Miscellaneous hardstones;Wadi Fatiri el-Bayda ;26.73383 ;33.32317 ;Quartz diorite ;GR ;1
+;;;;;;;;;;;;;;;;H22 ;Miscellaneous hardstones;Wadi Umm Wikala ;26.43067 ;33.66367 ;Metagabbro ;GR ;1
+;;;;;;;;;;;;;;;;H23 ;Miscellaneous hardstones;Wadi Abu Gerida ;26.36283 ;33.28533 ;Rhyolite porphyry ;GR ;1
+;;;;;;;;;;;;;;;;H24 ;Miscellaneous hardstones;Wadi Maghrabiya ;26.31233 ;33.39633 ;Metagabbro ;GR ;1
+;;;;;;;;;;;;;;;;H26 ;Miscellaneous hardstones;Wadi Umm Esh ;26.06683 ;33.61233 ;Serpentinite ;GR ;4
+;;;;;;;;;;;;;;;;H27 ;Miscellaneous hardstones;Bir Umm Fawakhir ;26.01283 ;33.60851 ;Granodiorite-granite ;GR ;1
+;;;;;;;;;;;;;;;;H28a ;Miscellaneous hardstones;Wadi Hammamat - E ;25.98983 ;33.56917 ;Metagraywacke, metaconglomer. ;P/GR ;1
+;;;;;;;;;;;;;;;;H28b ;Miscellaneous hardstones;Wadi Hammamat - W ;25.97767 ;33.55817 ;Metaconglomerate ;P/GR ;1
+;;;;;;;;;;;;;;;;H29 ;Miscellaneous hardstones;Gebel Umm Naqqat ;25.49633 ;34.25317 ;Pegmatitic diorite ;PH/ED ;1
+;;;;;;;;;;;;;;;;H30 ;Miscellaneous hardstones;Wadi Abu Bokari ;25.25217 ;33.76001 ;Granodiorite ;GR ;1
+;;;;;;;;;;;;;;;;H31 ;Miscellaneous hardstones;Rod el-Gamra ;24.76183 ;33.98833 ;Dolerite porphyry ;P ;1
+;;;;;;;;;;;;;;;;H36 ;Miscellaneous hardstones;Wadi Abu Subeira ;24.21633 ;32.89751 ;Silicified sandstone ;P/GR ;3
+;;;;;;;;;;;;;;;;H37 ;Miscellaneous hardstones;Aswan - Hod el-Ruba ;24.06083 ;32.88867 ;Dolerite ;P ;4
+;;;;;;;;;;;;;;;;H38 ;Miscellaneous hardstones;Aswan - Gebel el-Granite ;24.04183 ;32.88901 ;Dolerite ;P ;2
+;;;;;;;;;;;;;;;;H39 ;Miscellaneous hardstones;Umm el-Sawan ;29.71023 ;30.88924 ;Silicified sandstone ;P ;1
+;;;;;;;;;;;;;;;;T1 ;Travertine;Wadi el-Garawi ;29.81101 ;31.45951 ;Travertine ;P ;3
+;;;;;;;;;;;;;;;;T2 ;Travertine;Wadi Araba / Wadi Askhar ;29.07958 ;32.05163 ;Travertine ;GR ;1
+;;;;;;;;;;;;;;;;T3 ;Travertine;Wadi Umm Argub ;28.63501 ;31.26717 ;Travertine ;P ;3
+;;;;;;;;;;;;;;;;T4 ;Travertine;el-Qawatir ;28.10333 ;30.81667 ;Travertine ;P ;3
+;;;;;;;;;;;;;;;;T5 ;Travertine;Wadi el-Barshawi ;27.70617 ;30.93601 ;Travertine ;P ;2
+;;;;;;;;;;;;;;;;T6 ;Travertine;Wadi el-Zebeida east /Abd el-Azziz  ;27.68951 ;30.90583 ;Travertine;P ;3
+;;;;;;;;;;;;;;;;T7 ;Travertine;Wadi el-Zebeida east ;27.67601 ;30.92633 ;Travertine ;P ;3
+;;;;;;;;;;;;;;;;T8 ;Travertine;Hatnub ;27.55501 ;31.02317 ;Travertine ;P/GR ;3
+;;;;;;;;;;;;;;;;T9 ;Travertine;Wadi Assiut ;27.31551 ;31.35933 ;Travertine ;P ;4
+;;;;;;;;;;;;;;;;O1 ;Other soft stones;Umm el-Sawan ;29.71167 ;30.88333 ;Gypsum ;ED/P ;1
+;;;;;;;;;;;;;;;;O2a ;Other soft stones;Wadi Saqiyah north ;26.33117 ;33.65733 ;Talc schist ;GR ;2
+;;;;;;;;;;;;;;;;O2b ;Other soft stones;Wadi Saqiyah south ;26.32601 3;3.65551 Talc ;schist ;GR ;2
+;;;;;;;;;;;;;;;;O3 ;Other soft stones;Gebel Rokham ;25.29967 ;33.96567 ;Marble ;P/GR ;4
+;;;;;;;;;;;;;;;;O4 ;Other soft stones;Wadi Mubarak ;25.26901 ;34.43733 ;Steatite ;I ;1
+;;;;;;;;;;;;;;;;O5 ;Other soft stones;Wadi Abu Qureya ;25.23251 ;34.04583 ;Steatite ;I ;1
+;;;;;;;;;;;;;;;;O6 ;Other soft stones;Wadi el-Humra ;25.23083 ;33.98667 ;Steatite ;I ;1
+;;;;;;;;;;;;;;;;O7 ;Other soft stones;Wadi Umm Salim ;25.12951 ;34.00833 ;Steatite ;I ;1
+;;;;;;;;;;;;;;;;O8 ;Other soft stones;Gebel Rod el-Barram ;25.10251 ;34.07283 ;Steatite ;GR/I ;1
+;;;;;;;;;;;;;;;;O9 ;Other soft stones;Wadi el-Anba’ut ;24.93017 ;34.92351 ;Gypsum ;GR ;1
+;;;;;;;;;;;;;;;;O10 ;Other soft stones;Wadi Kamoyid ;22.60001 ;34.97667 ;Steatite ;I ;1
+;;;;;;;;;;;;;;;;O11 ;Other soft stones;Wadi Ma’awad ;25.31217 ;33.67333 ;Talc schist ;GR ;1
+;;;;;;;;;;;;;;;;O12 ;Other soft stones;Qasr el-Sagha ;29.60584 ;30.67388 ;Gypsum ;P ;1
+;;;;;;;;;;;;;;;;Chert;;;;;;;
+;;;;;;;;;;;;;;;;H25 ;Chert;Wadi Hameda ;26.21183 ;33.51617 ;Chert ;B ;1
+;;;;;;;;;;;;;;;;H32 ;Chert;Wadi Araba /Wadi Umm Nikhaybar ;29.07813 ;31.59083 ;Chert;P ;1
+;;;;;;;;;;;;;;;;H33 ;Chert;Wadi el-Sheikh ;28.72083 ;31.01833 ;Chert ;P ;1
+;;;;;;;;;;;;;;;;H34 ;Chert;Hierakonpolis ;25.06917 ;32.77667 ;Chert ;PH/P ;2
+;;;;;;;;;;;;;;;;H35 ;Chert;Wadi Araba / Ain Barda ;29.10417 ;32.08633 ;Chert ;P ;2
+;;;;;;;;;;;;;;;;G1 ;Gem stones;Bir Nasib ;29.03667 ;33.39833 ;Turquoise ;P ;3
+;;;;;;;;;;;;;;;;G2 ;Gem stones;Serabit el-Khadim ;29.03667 ;33.45833 ;Turquoise ;P ;3
+;;;;;;;;;;;;;;;;G3 ;Gem stones;Wadi ;Maghara ;28.89717; 33.37001 ;Turquoise ;P 
+;;;;;;;;;;;;;;;;G4 ;Gem stones;Abu Diyeiba ;26.51917 ;33.82601 ;Amethyst ;GR ;1
+;;;;;;;;;;;;;;;;G5 ;Gem stones;ebel Zabara ;24.77167 ;34.71833 ;Emerald ;B/I ;1
+;;;;;;;;;;;;;;;;G6 ;Gem stones;Wadi Sikait ;24.64883 ;34.79751 ;Emerald ;GR ;2
+;;;;;;;;;;;;;;;;G7;Gem stones;Wadi Nugrus ;24.61675 ;34.77908 ;Emerald ;GR ;1
+;;;;;;;;;;;;;;;;G9 ;Gem stones;Wadi el-Hudi ;23.96151 ;33.13067 ;Amethyst ;P ;1
+;;;;;;;;;;;;;;;;G10 ;Gem stones;Gebel Migif ;24.80651 ;34.45301 ;Amazonite ;P ;1
+;;;;;;;;;;;;;;;;G11 ;Gem stones;W. Fayrouz/Geb.Hafafit ;24.75483 ;34.57417 ;Amazonite ;GR ;4
+;;;;;;;;;;;;;;;;G12 ;Gem stones;Zabargad Island ;23.60167 ;36.19133 ;Peridot ;GR ;4
+;;;;;;;;;;;;;;;;G13 ;Gem stones;Stela Ridge ;22.90001 ;31.31667 ;Carnelian ;P ;3
+;;;;;;;;;;;;;;;;G14 ;Gem stones;Umm Harba ;24.64201 ;34.82783 ;Emerald ;GR ;1
+;;;;;;;;;;;;;;;;G15 ;Gem stones;Wadi Abu Rasheid ;24.65533 ;34.75458 ;Emerald ;GR ;1
+;;;;;;;;;;;;;;;;G16 ;Gem stones;Umm Kabu ;24.05001 ;34.10001 ;Emerald ;GR ;1
+;;;;;;;;;;;;;;;;L1 ;Limestone;Mallahet Mariut ;30.94686 ;29.50167 ;Limestone;GR ;4
+;;;;;;;;;;;;;;;;L2 ;Limestone;Giza ;29.97501 ;31.13251 ;Limestone;P ;2 
+;;;;;;;;;;;;;;;;L3 ;Limestone;Saqqara ;29.86917 ;31.21501 ;Limestone;ED ;2
+;;;;;;;;;;;;;;;;L4 ;Limestone;el-Lahun ;29.23667 ;30.97083 ;Limestone;P ;U
+;;;;;;;;;;;;;;;;L5 ;Limestone;Zawyet Nasr (Gebel Mokattam) ;30.02667 ;31.27001 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L6 ;Limestone;Tura ;29.93333 ;31.29867 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L7 ;Limestone;Masara ;29.91501 ;31.32001 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L8 ;Limestone;el-Sawayta ;28.37683 ;30.80101 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L9 ;Limestone;el-Babein ;28.30467 ;30.75067 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L10 ;Limestone;Deir Gebel el-Teir ;28.28167 ;30.74717 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L11 ;Limestone;Tihna el-Gebel ;28.18417 ;30.77501 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L12 ;Limestone;el-Hawarta ;28.16583 ;30.77667;Limestone;GR ;2
+;;;;;;;;;;;;;;;;L13 ;Limestone;Nazlet Husein Ali ;28.14001 ;30.77751 ;Limestone;GR ;2
+;;;;;;;;;;;;;;;;L14 ;Limestone;Sawada ;28.07501 ;30.80933 ;Limestone;P ;U
+;;;;;;;;;;;;;;;;L15 ;Limestone;Nazlet Sultan Pasha ;28.06833 ;30.81751 ;Limestone;P/GR ;3
+;;;;;;;;;;;;;;;;L16 ;Limestone;Zawyet el-Amwat ;28.05501 ;30.83167 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L17 ;Limestone;Wadi Sheikh Yasin ;28.05251 ;30.84533 ;Limestone;P/GR ;3
+;;;;;;;;;;;;;;;;L18 ;Limestone;Darb Tila Nufal ;28.04501 ;30.85583 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L19 ;Limestone;Dirwa ;27.73917 ;30.70001 ;Limestone;GR ;2
+;;;;;;;;;;;;;;;;L20 ;Limestone;Nazlet el-Diyaba ;27.94001 ;30.88183 ;Limestone;GR ;2
+;;;;;;;;;;;;;;;;L21 ;Limestone;Beni Hasan ;27.91067 ;30.87167 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L22 ;Limestone;el-Sheikh Timay ;27.86167 ;30.84533 ;Limestone;P/GR ;3
+;;;;;;;;;;;;;;;;L23 ;Limestone;el-Sheikh Ibada ;27.82651 ;30.87667 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L24 ;Limestone;Deir Abu Hennis ;27.77933 ;30.92133 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L25 ;Limestone;Wadi el-Nakla ;27.75117 ;30.91933 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L26 ;Limestone;Deir el-Bersha north ;27.71917 ;30.89433 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L27 ;Limestone;Deir el-Bersha south ;27.70601 ;30.89001 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L28 ;Limestone;Sheikh Said ;27.69733 ;30.88951 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L29 ;Limestone;Wadi el-Zebeida west ;27.69283 ;30.90167 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L30 ;Limestone;Wadu el-Zebeida central ;27.68951 ;30.90583 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L31 ;Limestone;Queen Tiy Quarry ;27.67817 ;30.91001 ;Limestone;P ;1
+;;;;;;;;;;;;;;;;L32 ;Limestone;Amarna north tombs ;27.66201 ;30.92967 ;Limestone;P ;1
+;;;;;;;;;;;;;;;;L33 ;Limestone;Deir el-Quseir ;27.49333 ;30.87301 ;Limestone;U ;U
+;;;;;;;;;;;;;;;;L34 ;Limestone;Wadi Abu Helwa ;27.42167 ;30.88167 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L35 ;Limestone;Meir ;27.43333 ;30.70683 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L36 ;Limestone;Deir el-Amir Tadros ;27.37951 ;30.95783 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L37 ;Limestone;Deir Abu Mina ;27.35667 ;31.01467 ;Limestone;U ;3
+;;;;;;;;;;;;;;;;L38 ;Limestone;el-Maabda ;27.34533 ;31.02833 ;Limestone;U ;3
+;;;;;;;;;;;;;;;;L39 ;Limestone;Deir el-Gabrawi ;27.33883 ;31.10317 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L40 ;Limestone;el-Ketf ;27.32667 ;31.04801 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L41 ;Limestone;Arab el-Atiat ;27.33451 ;31.06617 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L42 ;Limestone;Talet el-Hagar ;27.28951 ;31.30083 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L43 ;Limestone;Assiut / el-Izam ;27.15417 ;31.14833 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L44 ;Limestone;Assiut / Drunka ;27.15601 ;31.17583 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L45 ;Limestone;el-Aldra Maryam/Deir Drunka ;27.10333 ;31.17033 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L46 ;Limestone;Deir Rifa ;27.07583 ;31.18333 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L47;Limestone; Sidi Abu el-Haris ;27.04501 ;31.22651 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L48 ;Limestone;Sidi Abu el-Haris tomb / Deir el-Bileida ;27.03967 ;31.22867 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L49 ;Limestone;Deir el-Bileida ;27.03251 ;31.23251 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L50 ;Limestone;el-Balyza ;27.02151 ;31.23951 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L51 ;Limestone;el-Balyza / Abu Khurs ;27.00667 ;31.24451 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L52 ;Limestone;el-Abu Khurs / el-Zaraby ;26.98667 ;31.24851 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L53 ;Limestone;el-Zaraby ;26.97417 ;31.25001 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L54 ;Limestone;el-Adra Maryam ;26.92717 ;31.28317 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L55 ;Limestone;el-Mashaya ;26.91501 ;31.28917 ;Limestone;U ;3
+;;;;;;;;;;;;;;;;L56 ;Limestone;el-Ghanayim Bahari ;26.89001 ;31.30633 ;Limestone;GR ;2
+;;;;;;;;;;;;;;;;L57 ;Limestone;Sidi Mansur ;26.88083 ;31.31233 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L58 ;Limestone;el-Ghanayim Qibli ;26.87067 ;31.31967 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L59 ;Limestone;el-Aghana ;26.86001 ;31.32901 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L60 ;Limestone;el-Qarya Bil Diweir ;26.84251 ;31.33401 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L61 ;Limestone;Sidi Abu Khiris tomb ;26.78151 ;31.35883 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L62;Limestone;Nag el-Tawalib ;26.77333 ;31.37651 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L63 ;Limestone;Nag Hamad ;26.50933 ;31.66267 ;Limestone;GR ;3
+;;;;;;;;;;;;;;;;L64 ;Limestone;el-Salmuni ;26.20417 ;31.87583 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L65 ;Limestone;Wadi Naqb el-Salmuni ;26.19351 ;31.86583 ;Limestone;P ;1
+;;;;;;;;;;;;;;;;L66 ;Limestone;Wadi Emu ;27.11951 ;31.35683 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L67 ;Limestone;el-Khawalid ;27.09351 ;31.38701 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L68 ;Limestone;el-Nazla el-Mustagidda ;27.07867 ;31.39367 ;Limestone;U ;1
+;;;;;;;;;;;;;;;;L69 ;Limestone;Deir Tasa ;27.06333 ;31.40451 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L70 ;Limestone;el-Iqal Bahari ;26.99251 ;31.45917 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L71 ;Limestone;el-Baiyadiya ;26.95951 ;31.46133 ;Limestone;U ;3
+;;;;;;;;;;;;;;;;L72 ;Limestone;el-Iqal el-Qibli ;26.94317 ;31.48017 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L73 ;Limestone;el-Hammamiya ;26.93717 ;31.48733 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L74 ;Limestone;Antaeopolis ;26.92417 ;31.49251 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L75 ;Limestone;Qaw el-Kebir ;26.92583 ;31.50517 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L76 ;Limestone;el-Nawawra ;26.83533 ;31.53633 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L77 ;Limestone;el-Khazindariya ;26.79451 ;31.54151 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L78 ;Limestone;Nazlet el-Haridi ;26.77483 ;31.55351 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L79 ;Limestone;Abu el-Nasr ;26.76233 ;31.56367 ;Limestone;GR ;2
+;;;;;;;;;;;;;;;;L80 ;Limestone;Abu el-Nasr/el-Galawiya ;26.76167 ;31.59333 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L81 ;Limestone;el-Galawiya ;26.75951 ;31.62233 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L82 ;Limestone;Istabl Antar ;26.71283 ;31.67483 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L83 ;Limestone;Qurnet Salamuni ;26.61901 ;31.75483 ;Limestone;U ;U
+;;;;;;;;;;;;;;;;L84 ;Limestone;el-Salamuni ;26.61783 ;31.76451 ;Limestone;P ;3
+;;;;;;;;;;;;;;;;L85 ;Limestone;Wadi el-Muluk ;25.74633 ;32.62251 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L86 ;Limestone;el-Gebelein / el-Ghrera ;25.49767 ;32.47901 ;Limestone;P/GR ;4
+;;;;;;;;;;;;;;;;L87 ;Limestone;Nag el-Ahaywa ;26.43433 ;31.83717 ;Limestone;P ;U
+;;;;;;;;;;;;;;;;L88 ;Limestone;Sidi Musa ;26.41501 ;31.84533 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L89 ;Limestone;Nag el-Buza ;26.09501 ;32.30301 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L90 ;Limestone;Gebel el-Gir ;26.10451 ;32.69501 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L91 ;Limestone;el-Dibabiya ;25.50133 ;32.51933 ;Limestone;P/GR ;2
+;;;;;;;;;;;;;;;;L92 ;Limestone;Wadi Umm Zanatir ;28.93833 ;32.39501 ;Limestone;B ;1
+;;;;;;;;;;;;;;;;L93 ;Limestone;Wadi Abu Mu’aymil ;28.89833 ;32.32501 ;Limestone;B ;3
+;;;;;;;;;;;;;;;;L94 ;Limestone;Wadi el-Sheikh Muhammad ;28.12433 ;30.78701 ;Limestone;U ;2
+;;;;;;;;;;;;;;;;L95 ;Limestone;Wadi Umm Damarana ;28.82483 ;32.06567 ;Limestone;I ;4
+;;;;;;;;;;;;;;;;L96 ;Limestone;Abu Sir 2;9.88301 ;31.20417 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L97 ;Limestone;Dahshur - Mastaba Faraon ;29.82017 ;31.20083 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L98 ;Limestone;Dahshur - Red Pyramid ;29.80201 ;31.19667 ;Limestone;P ;2
+;;;;;;;;;;;;;;;;L99 ;Limestone;Siwa Oasis ;29.20501 ;25.54333 ;Limestone;P ;4
+;;;;;;;;;;;;;;;;S1 ;Sandstone;Hierakonpolis ;25.07567 ;32.74333 ;Sandstone;P/GR ;2
+;;;;;;;;;;;;;;;;S2 ;Sandstone;el-Mahamid ;25.13767 ;32.78267 ;Sandstone;P/GR ;2
+;;;;;;;;;;;;;;;;S3 ;Sandstone;el-Kab ;25.13451 ;32.81751 ;Sandstone;P/GR ;1
+;;;;;;;;;;;;;;;;S4 ;Sandstone;el-Keijal ;25.06833 ;32.86301 ;Sandstone;U ;2
+;;;;;;;;;;;;;;;;S5 ;Sandstone;Nag el-Raqiein ;24.74633 ;32.92033 ;Sandstone;U ;2
+;;;;;;;;;;;;;;;;S6 ;Sandstone;Nag el-Hosh ;24.73651 ;32.92117 ;Sandstone;GR ;1
+;;;;;;;;;;;;;;;;S7 ;Sandstone;Wadi el-Shatt el-Rigal ;24.68501 ;32.92351 ;Sandstone;P ;1
+;;;;;;;;;;;;;;;;S8 ;Sandstone;Nag el-Hammam - N ;24.67751 ;32.92483 ;Sandstone;P ;2
+;;;;;;;;;;;;;;;;S9a ;Sandstone;Gebel el-Silsila - W ;24.64901 ;32.92917 ;Sandstone;P ;2
+;;;;;;;;;;;;;;;;S9b ;Sandstone;Gebel el-Silsila - E ;24.64283 ;32.93333 ;Sandstone;P/GR ;1
+;;;;;;;;;;;;;;;;S10 ;Sandstone;el-Kilh Sharq ;25.04951 ;32.88883 ;Sandstone;GR ;2
+;;;;;;;;;;;;;;;;S11 ;Sandstone;el-Bueib ;24.80983 ;32.91433 ;Sandstone;P ;3
+;;;;;;;;;;;;;;;;S12 ;Sandstone;Nag el-Fuqani ;24.20883 ;32.85883 ;Sandstone;GR ;2
+;;;;;;;;;;;;;;;;S13 ;Sandstone;Sheikh Mohammed ;24.16283 ;32.86833;Sandstone;U ;1
+;;;;;;;;;;;;;;;;S14 ;Sandstone;Sidi el-Hasan ;24.34983 ;32.92801 ;Sandstone;GR ;3
+;;;;;;;;;;;;;;;;S15 ;Sandstone;el-Hadedoon ;24.30917 ;32.91133 ;Sandstone;GR ;3
+;;;;;;;;;;;;;;;;S16 ;Sandstone;Gebel el-Hammam ;24.22717 ;32.87483 ;Sandstone;P ;4
+;;;;;;;;;;;;;;;;S17 ;Sandstone;Gebel Qubbet el-Hawa ;24.10183 ;32.88767 ;Sandstone;U ;2
+;;;;;;;;;;;;;;;;S18 ;Sandstone;Aswan ;24.06176 ;32.89501 ;Sandstone;U ;4
+;;;;;;;;;;;;;;;;S19 ;Sandstone;Dabod ;23.89667 ;32.85333 ;Sandstone;GR ;ULN
+;;;;;;;;;;;;;;;;S20 ;Sandstone;Qertassi ;23.70001 ;32.88501 ;Sandstone;GR ;ULN
+;;;;;;;;;;;;;;;;S21 ;Sandstone;Tafa ;23.46501 ;32.86177 ;Sandstone;GR ;ULN
+;;;;;;;;;;;;;;;;S22 ;Sandstone;Kalabsha ;23.55083 ;32.86333 ;Sandstone;GR ;ULN
+;;;;;;;;;;;;;;;;S23 ;Sandstone;Abu Hor / Merowa ;23.45833 ;32.89167 ;Sandstone;GR ;ULN
+;;;;;;;;;;;;;;;;S24 ;Sandstone;Qurta ;23.04167 ;32.66667 ;Sandstone;P/GR ;ULN
+;;;;;;;;;;;;;;;;S25 ;Sandstone;Agayba ;22.85001 ;32.55833 ;Sandstone;U ;ULN
+;;;;;;;;;;;;;;;;S26 ;Sandstone;Tumas ;22.75167 ;32.14667 ;Sandstone;P ;ULN
+;;;;;;;;;;;;;;;;S30 ;Sandstone;Qasr Ibrim ;22.64833 ;31.99167 ;Sandstone;P/GR ;ULN
+;;;;;;;;;;;;;;;;S31 ;Sandstone;Nag Deira ;22.50667 ;31.89167 ;Sandstone;P ;ULN
+;;;;;;;;;;;;;;;;S32 ;Sandstone;Gebel el-Teir ;25.50278 ;30.55687 ;Sandstone;P/GR ;3
+;;;;;;;;;;;;;;;;S33 ;Sandstone;el-Muweih ;25.94501 ;33.39851 ;Sandstone;GR ;2
+;;;;;;;;;;;;;;;;S34 ;Sandstone;Bir el-Kanayis ;25.00417 ;33.30001 ;Sandstone;P/GR ;2
+;;;;;;;;;;;;;;;;S35 ;Sandstone;Nag el-Hammam - S ;24.66601 ;32.92501 ;Sandstone;P ;2
+;;;;;;;;;;;;;;;;S36 ;Sandstone;Bahariya Oasis ;28.34701 ;28.85583 ;Sandstone;GR ;U
+;;;;;;;;;;;;;;;;S37 ;Sandstone;Dakla Oasis ;25.68167 ;28.83833 ;Sandstone;GR ;U
+;;;;;;;;;;;;;;;;S38 ;Sandstone;Saint Simeon ;24.09467 ;32.87567 ;Sandstone;P ;I
