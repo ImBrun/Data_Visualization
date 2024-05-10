@@ -1,13 +1,17 @@
 <?xml version='1.0' encoding='utf-8' ?>
 
-<!-- build 20241.24.0308.0326                               -->
-<workbook original-version='18.1' source-build='2024.1.1 (20241.24.0308.0326)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+<!-- build 20231.24.0118.1101                               -->
+<workbook original-version='18.1' source-build='2023.1.9 (20231.24.0118.1101)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
   <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
     <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <MapboxVectorStylesAndLayers />
     <_.fcp.MarkAnimation.true...MarkAnimation />
     <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
     <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
     <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
     <SheetIdentifierTracking />
     <WindowsPersistSimpleIdentifiers />
   </document-format-change-manifest>
@@ -21,58 +25,70 @@
     </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
   </_.fcp.AnimationOnByDefault.false...style>
   <datasources>
-    <datasource caption='pyramids' inline='true' name='federated.1g0wn2b1z0hztm1gczbz2062k7iq' version='18.1'>
+    <datasource caption='resources and pyramids' inline='true' name='federated.0a8ok3c08ehd9g13kuyoi115un3s' version='18.1'>
       <connection class='federated'>
         <named-connections>
-          <named-connection caption='pyramids' name='textscan.1wydpoq0n3nftv18iq4dw15s672c'>
-            <connection class='textscan' directory='D:/E drive/Proiecte/School/Data Viz/github/Data_Visualization/Datasets' filename='pyramids.csv' password='' server='' />
+          <named-connection caption='resources and pyramids' name='textscan.1q5nt3s075yn9a13rn4qp1w1lkom'>
+            <connection class='textscan' directory='/Users/andrei/Desktop/Data_Visualization/Data_Visualization/Datasets' filename='resources and pyramids.csv' password='' server='' />
           </named-connection>
         </named-connections>
-        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1wydpoq0n3nftv18iq4dw15s672c' name='pyramids.csv' table='[pyramids#csv]' type='table'>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1q5nt3s075yn9a13rn4qp1w1lkom' name='resources and pyramids.csv' table='[resources and pyramids#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='string' name='Pharaoh' ordinal='0' />
-            <column datatype='string' name='Ancient name' ordinal='1' />
-            <column datatype='string' name='Modern name' ordinal='2' />
-            <column datatype='integer' name='Dynasty' ordinal='3' />
-            <column datatype='string' name='Site' ordinal='4' />
-            <column datatype='real' name='Base1 (m)' ordinal='5' />
-            <column datatype='real' name='Base2 (m)' ordinal='6' />
-            <column datatype='real' name='Height (m)' ordinal='7' />
-            <column datatype='real' name='Slope (dec degr)' ordinal='8' />
-            <column datatype='string' name='Volume (cu.m)' ordinal='9' />
-            <column datatype='real' name='Latitude' ordinal='10' />
-            <column datatype='real' name='Longitude' ordinal='11' />
-            <column datatype='string' name='Type' ordinal='12' />
-            <column datatype='string' name='Lepsius' ordinal='13' />
-            <column datatype='string' name='Material' ordinal='14' />
-            <column datatype='string' name='Comment' ordinal='15' />
+            <column datatype='string' name='No. ' ordinal='0' />
+            <column datatype='string' name='Resource Type' ordinal='1' />
+            <column datatype='string' name='Name ' ordinal='2' />
+            <column datatype='real' name='Latitude ' ordinal='3' />
+            <column datatype='real' name='Longitude ' ordinal='4' />
+            <column datatype='string' name='Stone ' ordinal='5' />
+            <column datatype='string' name='Main period ' ordinal='6' />
+            <column datatype='string' name='State' ordinal='7' />
+            <column datatype='string' name='Pharaoh' ordinal='8' />
+            <column datatype='string' name='Ancient name' ordinal='9' />
+            <column datatype='string' name='Modern name' ordinal='10' />
+            <column datatype='integer' name='Dynasty' ordinal='11' />
+            <column datatype='string' name='Site' ordinal='12' />
+            <column datatype='real' name='Base1 (m)' ordinal='13' />
+            <column datatype='real' name='Base2 (m)' ordinal='14' />
+            <column datatype='real' name='Height (m)' ordinal='15' />
+            <column datatype='real' name='Slope (dec degr)' ordinal='16' />
+            <column datatype='real' name='Volume (cu.m)' ordinal='17' />
+            <column datatype='string' name='Type' ordinal='18' />
+            <column datatype='string' name='Lepsius' ordinal='19' />
+            <column datatype='string' name='Material' ordinal='20' />
+            <column datatype='string' name='Comment' ordinal='21' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
-        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1wydpoq0n3nftv18iq4dw15s672c' name='pyramids.csv' table='[pyramids#csv]' type='table'>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1q5nt3s075yn9a13rn4qp1w1lkom' name='resources and pyramids.csv' table='[resources and pyramids#csv]' type='table'>
           <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-            <column datatype='string' name='Pharaoh' ordinal='0' />
-            <column datatype='string' name='Ancient name' ordinal='1' />
-            <column datatype='string' name='Modern name' ordinal='2' />
-            <column datatype='integer' name='Dynasty' ordinal='3' />
-            <column datatype='string' name='Site' ordinal='4' />
-            <column datatype='real' name='Base1 (m)' ordinal='5' />
-            <column datatype='real' name='Base2 (m)' ordinal='6' />
-            <column datatype='real' name='Height (m)' ordinal='7' />
-            <column datatype='real' name='Slope (dec degr)' ordinal='8' />
-            <column datatype='string' name='Volume (cu.m)' ordinal='9' />
-            <column datatype='real' name='Latitude' ordinal='10' />
-            <column datatype='real' name='Longitude' ordinal='11' />
-            <column datatype='string' name='Type' ordinal='12' />
-            <column datatype='string' name='Lepsius' ordinal='13' />
-            <column datatype='string' name='Material' ordinal='14' />
-            <column datatype='string' name='Comment' ordinal='15' />
+            <column datatype='string' name='No. ' ordinal='0' />
+            <column datatype='string' name='Resource Type' ordinal='1' />
+            <column datatype='string' name='Name ' ordinal='2' />
+            <column datatype='real' name='Latitude ' ordinal='3' />
+            <column datatype='real' name='Longitude ' ordinal='4' />
+            <column datatype='string' name='Stone ' ordinal='5' />
+            <column datatype='string' name='Main period ' ordinal='6' />
+            <column datatype='string' name='State' ordinal='7' />
+            <column datatype='string' name='Pharaoh' ordinal='8' />
+            <column datatype='string' name='Ancient name' ordinal='9' />
+            <column datatype='string' name='Modern name' ordinal='10' />
+            <column datatype='integer' name='Dynasty' ordinal='11' />
+            <column datatype='string' name='Site' ordinal='12' />
+            <column datatype='real' name='Base1 (m)' ordinal='13' />
+            <column datatype='real' name='Base2 (m)' ordinal='14' />
+            <column datatype='real' name='Height (m)' ordinal='15' />
+            <column datatype='real' name='Slope (dec degr)' ordinal='16' />
+            <column datatype='real' name='Volume (cu.m)' ordinal='17' />
+            <column datatype='string' name='Type' ordinal='18' />
+            <column datatype='string' name='Lepsius' ordinal='19' />
+            <column datatype='string' name='Material' ordinal='20' />
+            <column datatype='string' name='Comment' ordinal='21' />
           </columns>
         </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
         <metadata-records>
           <metadata-record class='capability'>
             <remote-name />
             <remote-type>0</remote-type>
-            <parent-name>[pyramids.csv]</parent-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
             <remote-alias />
             <aggregation>Count</aggregation>
             <contains-null>true</contains-null>
@@ -86,11 +102,11 @@
             </attributes>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Pharaoh</remote-name>
+            <remote-name>No. </remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Pharaoh]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Pharaoh</remote-alias>
+            <local-name>[No. ]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>No. </remote-alias>
             <ordinal>0</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -98,14 +114,14 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Ancient name</remote-name>
+            <remote-name>Resource Type</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Ancient name]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Ancient name</remote-alias>
+            <local-name>[Resource Type]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Resource Type</remote-alias>
             <ordinal>1</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -113,14 +129,14 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Modern name</remote-name>
+            <remote-name>Name </remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Modern name]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Modern name</remote-alias>
+            <local-name>[Name ]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Name </remote-alias>
             <ordinal>2</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -128,89 +144,98 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Dynasty</remote-name>
-            <remote-type>20</remote-type>
-            <local-name>[Dynasty]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Dynasty</remote-alias>
+            <remote-name>Latitude </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Latitude ]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Latitude </remote-alias>
             <ordinal>3</ordinal>
-            <local-type>integer</local-type>
+            <local-type>real</local-type>
             <aggregation>Sum</aggregation>
             <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Site</remote-name>
-            <remote-type>129</remote-type>
-            <local-name>[Site]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Site</remote-alias>
+            <remote-name>Longitude </remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Longitude ]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Longitude </remote-alias>
             <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Stone </remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Stone ]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Stone </remote-alias>
+            <ordinal>5</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Base1 (m)</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Base1 (m)]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Base1 (m)</remote-alias>
-            <ordinal>5</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Base2 (m)</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Base2 (m)]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Base2 (m)</remote-alias>
-            <ordinal>6</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Height (m)</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Height (m)]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Height (m)</remote-alias>
-            <ordinal>7</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Slope (dec degr)</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Slope (dec degr)]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Slope (dec degr)</remote-alias>
-            <ordinal>8</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Volume (cu.m)</remote-name>
+            <remote-name>Main period </remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Volume (cu.m)]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Volume (cu.m)</remote-alias>
+            <local-name>[Main period ]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Main period </remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pharaoh</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Pharaoh]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Pharaoh</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Ancient name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Ancient name]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Ancient name</remote-alias>
             <ordinal>9</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -218,38 +243,41 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
-            <remote-name>Latitude</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Latitude]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Latitude</remote-alias>
-            <ordinal>10</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Longitude</remote-name>
-            <remote-type>5</remote-type>
-            <local-name>[Longitude]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Longitude</remote-alias>
-            <ordinal>11</ordinal>
-            <local-type>real</local-type>
-            <aggregation>Sum</aggregation>
-            <contains-null>true</contains-null>
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
-          </metadata-record>
-          <metadata-record class='column'>
-            <remote-name>Type</remote-name>
+            <remote-name>Modern name</remote-name>
             <remote-type>129</remote-type>
-            <local-name>[Type]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
-            <remote-alias>Type</remote-alias>
+            <local-name>[Modern name]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Modern name</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Dynasty</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Dynasty]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Dynasty</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Site</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Site]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Site</remote-alias>
             <ordinal>12</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
@@ -257,85 +285,882 @@
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base1 (m)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Base1 (m)]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Base1 (m)</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Base2 (m)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Base2 (m)]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Base2 (m)</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Height (m)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Height (m)]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Height (m)</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Slope (dec degr)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Slope (dec degr)]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Slope (dec degr)</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Volume (cu.m)</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Volume (cu.m)]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Volume (cu.m)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Type</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Type]</local-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
+            <remote-alias>Type</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Lepsius</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Lepsius]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
             <remote-alias>Lepsius</remote-alias>
-            <ordinal>13</ordinal>
+            <ordinal>19</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Material</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Material]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
             <remote-alias>Material</remote-alias>
-            <ordinal>14</ordinal>
+            <ordinal>20</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
           <metadata-record class='column'>
             <remote-name>Comment</remote-name>
             <remote-type>129</remote-type>
             <local-name>[Comment]</local-name>
-            <parent-name>[pyramids.csv]</parent-name>
+            <parent-name>[resources and pyramids.csv]</parent-name>
             <remote-alias>Comment</remote-alias>
-            <ordinal>15</ordinal>
+            <ordinal>21</ordinal>
             <local-type>string</local-type>
             <aggregation>Count</aggregation>
             <scale>1</scale>
             <width>1073741823</width>
             <contains-null>true</contains-null>
             <collation flag='0' name='LEN_RUS' />
-            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[pyramids.csv_5260B4E051B14018A9A730865BC89B62]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
           </metadata-record>
         </metadata-records>
       </connection>
       <aliases enabled='yes' />
-      <column aggregation='Avg' datatype='real' name='[Latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
-      <column aggregation='Avg' datatype='real' name='[Longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
-      <_.fcp.ObjectModelTableType.true...column caption='pyramids.csv' datatype='table' name='[__tableau_internal_object_id__].[pyramids.csv_5260B4E051B14018A9A730865BC89B62]' role='measure' type='quantitative' />
+      <column caption='Pyramids' datatype='integer' name='[Calculation_3580995039057055745]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='2' />
+      </column>
+      <column caption='Resources' datatype='integer' name='[Calculation_3580995039057092610]' role='measure' type='ordinal'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column datatype='integer' name='[Dynasty]' role='measure' type='ordinal' />
+      <column aggregation='Avg' caption='Latitude' datatype='real' name='[Latitude ]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[Longitude ]' role='dimension' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Main period' datatype='string' name='[Main period ]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Modern name]' role='dimension' type='nominal' />
+      <column caption='Name' datatype='string' name='[Name ]' role='dimension' type='nominal' />
+      <column caption='No.' datatype='string' name='[No. ]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Resource Type]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Site]' role='dimension' type='nominal' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Stone' datatype='string' name='[Stone ]' role='dimension' type='nominal' />
+      <_.fcp.ObjectModelTableType.true...column caption='resources and pyramids.csv' datatype='table' name='[__tableau_internal_object_id__].[resources and pyramids.csv_114D2142228649D5A097B922D1F34833]' role='measure' type='quantitative' />
+      <column-instance column='[Dynasty]' derivation='Attribute' name='[attr:Dynasty:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Dynasty]' derivation='None' name='[none:Dynasty:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Modern name]' derivation='None' name='[none:Modern name:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Resource Type]' derivation='None' name='[none:Resource Type:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Site]' derivation='None' name='[none:Site:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Dynasty]' derivation='Sum' name='[sum:Dynasty:ok]' pivot='key' type='ordinal' />
       <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Resource Type:nk]&#10;[sum:Dynasty:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>3</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>4</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>5</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>6</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>8</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>12</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>13</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>18</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>397</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Chert&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Gem stones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Limestone&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Miscellaneous hardstones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Other soft stones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Sandstone&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Travertine&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[sum:Dynasty:ok]&#10;[none:Resource Type:nk]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>%null%</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>5</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>12</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>8</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>6</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>3</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>4</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>18</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>13</bucket>
+            </map-pri>
+          </encoding>
+          <encoding attr='color' field='[none:Resource Type:nk]&#10;[attr:Dynasty:ok]' type='palette'>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>3</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>4</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>5</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>6</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>8</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>12</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>13</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>18</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Chert&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Gem stones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Limestone&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Miscellaneous hardstones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Other soft stones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Sandstone&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Travertine&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Site:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Edfu&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;South Saqqara&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Al-Minya&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Hawara&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;El-Lahun&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Athribis&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;Saqqara&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Abu Rawash&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Zawyet el&apos;Aryan&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Naqada&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;Dahshur&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Hierakonpolis&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lisht&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;North Saqqara&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Seila&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Elephantine&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Dara&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Abusir&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Meidum&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Giza&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Abydos&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Modern name:nk]&#10;[none:Resource Type:nk]' type='palette'>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>%null%</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;Pyramid G-3a (eastern)&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;Pyramid of Djedkare-Isesi&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;Pyramid of Naqada (Pyramid of Ombos)&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;Pyramid of Senusret I&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_blue_10_0'>
+              <bucket>&quot;Southern South Saqqara pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;Black Pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;Pyramid G1-d&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;Pyramid of Djedefre&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;Pyramid of Merenre&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;Pyramid of Seila&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_brown_10_0'>
+              <bucket>&quot;Southern Mazghuna pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;Headless Pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;Pyramid Lepsius I&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;Pyramid of Ibi&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;Pyramid of Neferirkare&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;Pyramid of Sinki&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gold_10_0'>
+              <bucket>&quot;The Great Pyramid of Giza&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;Northern Mazghuna pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;Pyramid G1-a&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;Pyramid of Amenemhet I&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;Pyramid of Khui&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;Pyramid of Pepi II&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;Pyramid of Userkaf&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_gray_10_0'>
+              <bucket>&quot;Unfinished Northern Pyramid of Zawyet el&apos;Aryan&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;Edfu South Pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;Pyramid G-3c (western)&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;Pyramid of Hawara&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;Pyramid of Neferhetepes (wife of Userkaf)&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;Pyramid of Senusret III&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_green_10_0'>
+              <bucket>&quot;Step tomb of Khentkaus I&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;Buried Pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;Pyramid G-3b (middle)&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;Pyramid of Elephantine&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;Pyramid of Neferefre&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;Pyramid of Senusret II&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_orange_10_0'>
+              <bucket>&quot;Step Pyramid of Djoser&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Al Kula Pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Pyramid G1-b&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Pyramid of Ameny Qemau&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Pyramid of Meidum&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Pyramid of Queen Khentkawes II&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Pyramid of Zawyet el-Maiyitin&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_pink_10_0'>
+              <bucket>&quot;Unfinished pyramid of North Abusir&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;Bent Pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;Pyramid G1-c&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;Pyramid of Athribis&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;Pyramid of Menkaure&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;Pyramid of Sahure&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;Red Pyramid (North Pyramid)&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_purple_10_0'>
+              <bucket>&quot;White Pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;Mastabat al-Fir&apos;aun&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;Pyramid of Ahmose&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;Pyramid of Khendjer&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;Pyramid of Pepi I&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;Pyramid of Unas&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_red_10_0'>
+              <bucket>&quot;Tomb S10&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;Layer Pyramid&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;Pyramid Lepsius L&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;Pyramid of Khafre&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;Pyramid of Nyuserre&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;Pyramid of Teti&quot;</bucket>
+            </map-pri>
+            <map-pri to='multiordinal_teal_10_0'>
+              <bucket>&quot;Tomb S9&quot;</bucket>
+            </map-pri>
+          </encoding>
+          <encoding attr='color' field='[none:Dynasty:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>3</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>4</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>8</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>12</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>13</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>18</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Dynasty:ok]&#10;[none:Resource Type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>3</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>4</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>5</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>6</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>8</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>12</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>13</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#4e79a7'>
+              <multibucket>
+                <bucket>18</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Chert&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Gem stones&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Limestone&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Miscellaneous hardstones&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Other soft stones&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Sandstone&quot;</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>&quot;Travertine&quot;</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Resource Type:nk]&#10;[none:Dynasty:ok]' type='palette'>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>3</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>4</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>5</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>6</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>8</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>12</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>13</bucket>
+              </multibucket>
+            </map>
+            <map to='#75a1c7'>
+              <multibucket>
+                <bucket>%null%</bucket>
+                <bucket>18</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Chert&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Gem stones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Limestone&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Miscellaneous hardstones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Other soft stones&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Sandstone&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+            <map to='#f1ce63'>
+              <multibucket>
+                <bucket>&quot;Travertine&quot;</bucket>
+                <bucket>%null%</bucket>
+              </multibucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
       <semantic-values>
-        <semantic-value key='[Country].[Name]' value='&quot;Denmark&quot;' />
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
       </semantic-values>
       <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
         <objects>
-          <object caption='pyramids.csv' id='pyramids.csv_5260B4E051B14018A9A730865BC89B62'>
+          <object caption='resources and pyramids.csv' id='resources and pyramids.csv_114D2142228649D5A097B922D1F34833'>
             <properties context=''>
-              <relation connection='textscan.1wydpoq0n3nftv18iq4dw15s672c' name='pyramids.csv' table='[pyramids#csv]' type='table'>
+              <relation connection='textscan.1q5nt3s075yn9a13rn4qp1w1lkom' name='resources and pyramids.csv' table='[resources and pyramids#csv]' type='table'>
                 <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
-                  <column datatype='string' name='Pharaoh' ordinal='0' />
-                  <column datatype='string' name='Ancient name' ordinal='1' />
-                  <column datatype='string' name='Modern name' ordinal='2' />
-                  <column datatype='integer' name='Dynasty' ordinal='3' />
-                  <column datatype='string' name='Site' ordinal='4' />
-                  <column datatype='real' name='Base1 (m)' ordinal='5' />
-                  <column datatype='real' name='Base2 (m)' ordinal='6' />
-                  <column datatype='real' name='Height (m)' ordinal='7' />
-                  <column datatype='real' name='Slope (dec degr)' ordinal='8' />
-                  <column datatype='string' name='Volume (cu.m)' ordinal='9' />
-                  <column datatype='real' name='Latitude' ordinal='10' />
-                  <column datatype='real' name='Longitude' ordinal='11' />
-                  <column datatype='string' name='Type' ordinal='12' />
-                  <column datatype='string' name='Lepsius' ordinal='13' />
-                  <column datatype='string' name='Material' ordinal='14' />
-                  <column datatype='string' name='Comment' ordinal='15' />
+                  <column datatype='string' name='No. ' ordinal='0' />
+                  <column datatype='string' name='Resource Type' ordinal='1' />
+                  <column datatype='string' name='Name ' ordinal='2' />
+                  <column datatype='real' name='Latitude ' ordinal='3' />
+                  <column datatype='real' name='Longitude ' ordinal='4' />
+                  <column datatype='string' name='Stone ' ordinal='5' />
+                  <column datatype='string' name='Main period ' ordinal='6' />
+                  <column datatype='string' name='State' ordinal='7' />
+                  <column datatype='string' name='Pharaoh' ordinal='8' />
+                  <column datatype='string' name='Ancient name' ordinal='9' />
+                  <column datatype='string' name='Modern name' ordinal='10' />
+                  <column datatype='integer' name='Dynasty' ordinal='11' />
+                  <column datatype='string' name='Site' ordinal='12' />
+                  <column datatype='real' name='Base1 (m)' ordinal='13' />
+                  <column datatype='real' name='Base2 (m)' ordinal='14' />
+                  <column datatype='real' name='Height (m)' ordinal='15' />
+                  <column datatype='real' name='Slope (dec degr)' ordinal='16' />
+                  <column datatype='real' name='Volume (cu.m)' ordinal='17' />
+                  <column datatype='string' name='Type' ordinal='18' />
+                  <column datatype='string' name='Lepsius' ordinal='19' />
+                  <column datatype='string' name='Material' ordinal='20' />
+                  <column datatype='string' name='Comment' ordinal='21' />
                 </columns>
               </relation>
             </properties>
@@ -344,28 +1169,144 @@
       </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
     </datasource>
   </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
   <worksheets>
     <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Pyramids and Resources</run>
+          </formatted-text>
+        </title>
+      </layout-options>
       <table>
         <view>
-          <datasources />
+          <datasources>
+            <datasource caption='resources and pyramids' name='federated.0a8ok3c08ehd9g13kuyoi115un3s' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0a8ok3c08ehd9g13kuyoi115un3s'>
+            <column datatype='integer' name='[Dynasty]' role='measure' type='ordinal' />
+            <column aggregation='Avg' caption='Latitude' datatype='real' name='[Latitude ]' role='dimension' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[Longitude ]' role='dimension' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column datatype='string' name='[Resource Type]' role='dimension' type='nominal' />
+            <column-instance column='[Dynasty]' derivation='None' name='[none:Dynasty:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Latitude ]' derivation='None' name='[none:Latitude :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Longitude ]' derivation='None' name='[none:Longitude :qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Resource Type]' derivation='None' name='[none:Resource Type:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
           <aggregation value='true' />
         </view>
-        <style />
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Longitude :qk]' field-type='quantitative' max='4270714.584776327' min='2773141.0622078562' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Latitude :qk]' field-type='quantitative' max='3724149.0552378413' min='2487880.5829957807' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Resource Type:nk]' />
+              <color column='[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Dynasty:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Latitude :qk]</rows>
+        <cols>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Longitude :qk]</cols>
+      </table>
+      <simple-id uuid='{4E191DBE-5C7A-4DC6-8AA1-6104592BA9BD}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='resources and pyramids' name='federated.0a8ok3c08ehd9g13kuyoi115un3s' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0a8ok3c08ehd9g13kuyoi115un3s'>
+            <column caption='Pyramids' datatype='integer' name='[Calculation_3580995039057055745]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='2' />
+            </column>
+            <column caption='Resources' datatype='integer' name='[Calculation_3580995039057092610]' role='measure' type='ordinal'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column-instance column='[Calculation_3580995039057055745]' derivation='None' name='[none:Calculation_3580995039057055745:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_3580995039057092610]' derivation='None' name='[none:Calculation_3580995039057092610:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
         <panes>
           <pane selection-relaxation-option='selection-relaxation-allow'>
             <view>
               <breakdown value='auto' />
             </view>
             <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Calculation_3580995039057055745:ok]' />
+              <color column='[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Calculation_3580995039057092610:ok]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
           </pane>
         </panes>
-        <rows />
-        <cols />
+        <rows>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Calculation_3580995039057092610:ok]</rows>
+        <cols>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Calculation_3580995039057055745:ok]</cols>
       </table>
-      <simple-id uuid='{EF2FE169-6132-4874-ABC2-53E23E278BF3}' />
+      <simple-id uuid='{8C514DFB-8600-4FDC-813F-EFE69A8BBBFD}' />
     </worksheet>
   </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Dashboard 1'>
+      <style />
+      <size maxheight='800' maxwidth='1000' minheight='800' minwidth='1000' />
+      <zones />
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98000' id='3' param='vert' type-v2='layout-flow' w='98400' x='800' y='1000' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{182ED380-4A2A-4931-94C1-0D8228240548}' />
+    </dashboard>
+  </dashboards>
   <windows source-height='30'>
     <window class='worksheet' maximized='true' name='Sheet 1'>
       <cards>
@@ -388,11 +1329,65 @@
           </strip>
         </edge>
       </cards>
-      <simple-id uuid='{29C1A8B5-3221-4F3E-9CAF-05D573D68502}' />
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Dynasty:ok]</field>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Lepsius:nk]</field>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Resource Type:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{2B728255-A030-4C5A-8B27-8DCD985D0F61}' />
+    </window>
+    <window class='dashboard' name='Dashboard 1'>
+      <viewpoints />
+      <active id='-1' />
+      <simple-id uuid='{C5DC3F12-7FD0-438F-939D-6CAB9483D019}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Calculation_3580995039057055745:ok]&#10;[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Calculation_3580995039057092610:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[attr:Resource Type:nk]</field>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[cnt:Modern name:qk]</field>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Calculation_3580995039057055745:ok]</field>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Calculation_3580995039057092610:ok]</field>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[none:Modern name:nk]</field>
+            <field>[federated.0a8ok3c08ehd9g13kuyoi115un3s].[sum:Calculation_3580995039057092610:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{D1E7C9D6-CDFC-40D4-9456-9230B30922AF}' />
     </window>
   </windows>
   <thumbnails>
-    <thumbnail height='192' name='Sheet 1' width='192'>
+    <thumbnail height='192' name='Dashboard 1' width='192'>
       iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
       AAACFUlEQVR4nO3TMQEAIAzAMMC/5yFjRxMFfXpnZg5Eve0A2GQA0gxAmgFIMwBpBiDNAKQZ
       gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
@@ -405,6 +1400,287 @@
       gDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFI
       MwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKQZgDQDkGYA0gxAmgFIMwBpBiDNAKR9Y+0F
       fBUOM1sAAAAASUVORK5CYII=
+    </thumbnail>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+      rkJggg==
+    </thumbnail>
+    <thumbnail height='64' name='Sheet 2' width='144'>
+      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
     </thumbnail>
   </thumbnails>
 </workbook>
